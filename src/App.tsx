@@ -1,5 +1,12 @@
+import { Footer, Header } from "./components/layout";
+
 const App = () => {
-  return <h1>Hello World!</h1>;
+  return (
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 };
 
 export default App;
